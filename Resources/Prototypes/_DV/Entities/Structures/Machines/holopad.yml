@@ -422,7 +422,7 @@
     currentLabel: holopad-engineering-lobby
 
 - type: entity
-  parent: HolopadForeman
+  parent: HolopadEngineering
   id: HolopadForeman
   suffix: Foreman
   components:
