@@ -100,6 +100,7 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  - Foreman # DeltaV - Add Foreman job
 
 - type: department
   id: Medical
@@ -136,7 +137,7 @@
   - Brigmedic
   - PrisonGuard
   - SecurityBorg
-  - RoleLaika 
+  - RoleLaika
   - RoleK9Officer
   # END DeltaV
 

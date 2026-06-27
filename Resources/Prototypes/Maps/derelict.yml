@@ -1,7 +1,7 @@
 - type: gameMap
   id: Derelict
   mapName: 'Derelict'
-  mapPath: /Maps/derekict.yml
+  mapPath: /Maps/derelict.yml
   minPlayers: 15
   maxPlayers: 60
   stations:

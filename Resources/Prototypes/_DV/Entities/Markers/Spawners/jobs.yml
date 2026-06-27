@@ -154,4 +154,4 @@
     layers:
     - state: green
     - sprite: _DV/Markers/jobs.rsi
-    state: foreman
+      state: foreman

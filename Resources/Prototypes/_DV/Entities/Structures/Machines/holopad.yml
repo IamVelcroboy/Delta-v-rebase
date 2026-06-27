@@ -421,6 +421,14 @@
   - type: Label
     currentLabel: holopad-engineering-lobby
 
+- type: entity
+  parent: HolopadForeman
+  id: HolopadForeman
+  suffix: Foreman
+  components:
+  - type: Label
+    currentLabel: holopad-foreman
+
 #Service
 - type: entity
   parent: Holopad

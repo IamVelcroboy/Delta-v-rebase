@@ -52,6 +52,7 @@ holopad-medical-lobby = Medical - Lobby
 # Engineering
 holopad-engineering-pa-control = Engineering - PA Control
 holopad-engineering-lobby = Engineering - Lobby
+holopad-foreman = Foreman
 
 # Service
 holopad-service-toolroom = Service - Toolroom
