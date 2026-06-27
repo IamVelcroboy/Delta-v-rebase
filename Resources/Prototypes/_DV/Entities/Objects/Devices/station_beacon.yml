@@ -99,6 +99,14 @@
   - type: NavMapBeacon
     defaultText: station-beacon-atmos-outpost
 
+- type: entity
+  parent: DefaultStationBeaconEngineering
+  id: DefaultStationBeaconForeman
+  suffix: Foreman
+  components:
+  - type: NavMapBeacon
+    defaultText: station-beacon-foreman
+
 #Service
 - type: entity
   parent: DefaultStationBeaconService

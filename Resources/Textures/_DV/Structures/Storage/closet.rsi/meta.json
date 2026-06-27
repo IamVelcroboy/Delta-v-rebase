@@ -192,6 +192,15 @@
         },
         {
             "name": "genpop_open"
+        },
+        {
+            "name": "foreman_secure"
+        },
+        {
+            "name": "foreman_secure_door"
+        },
+        {
+            "name": "foreman_secure_open"
         }
     ]
 }

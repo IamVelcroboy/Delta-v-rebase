@@ -17,6 +17,7 @@ job-name-qm = Logistics Officer
 job-name-centcomintern = CentComm Intern
 job-name-rd = Mystagogue
 job-name-brigmedic = Corpsman
+job-name-foreman = Foreman
 
 # Alternate titles
 job-alt-title-tourist = Tourist
@@ -82,6 +83,7 @@ JobRoboticist = Roboticist
 JobCargoAssistant = Cargo Assistant
 JobZookeeper = Zookeeper
 JobBoxer = Boxer
+JobForeman = Foreman
 
 # Pet Roles
 RoleLaika = Laika

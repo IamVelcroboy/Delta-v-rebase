@@ -346,3 +346,12 @@
   components:
   - type: AccessReader
     access: [["CentralCommand"]]
+
+#Foreman
+- type: entity
+  parent: FilledSecureCabinet
+  id: SecureCabinetForeman
+  suffix: Foreman
+  components:
+  - type: AccessReader
+    access: [["Foreman"]]

@@ -351,3 +351,20 @@
     stateDoorClosed: eng_evac_door
   - type: AccessReader
     access: [ [ "Maintenance" ] ]
+
+# Foreman
+- type: entity
+  id: LockerForeman
+  parent: LockerBase
+  name: foreman's locker
+  components:
+  - type: Appearance
+  - type: Sprite
+    sprite: _DV/Structures/Storage/closet.rsi
+    noRot: true
+  - type: EntityStorageVisuals
+    stateBaseClosed: foreman_secure
+    stateDoorOpen: foreman_secure_open
+    stateDoorClosed: foreman_secure_door
+  - type: AccessReader
+    access: [ [ "Foreman" ] ]

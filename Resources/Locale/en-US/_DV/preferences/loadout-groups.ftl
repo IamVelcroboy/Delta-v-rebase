@@ -12,37 +12,25 @@ loadout-group-chief-engineer-gloves = Chief Engineer gloves
 
 # Civilian
 loadout-group-librarian-neck = Librarian neck
-
 loadout-group-bartender-glasses = Bartender glasses
 loadout-group-bartender-neck = Bartender neck
-
 loadout-group-janitor-neck = Janitor neck
-
 loadout-group-botanist-neck = Botanist neck
-
 loadout-group-mime-neck = Mime neck
-
 loadout-group-musician-neck = Musician neck
-
 loadout-group-passenger-id-delta = Assistant PDA
 loadout-group-bartender-id-delta = Bartender PDA
 loadout-group-chef-id-delta = Chef PDA
 loadout-group-clown-id-delta = Clown PDA
 loadout-group-janitor-id-delta = Janitor PDA
-
 loadout-group-serviceworker-head = Service Worker head
 loadout-group-serviceworker-jumpsuit = Service Worker jumpsuit
-
 loadout-group-assistant-head = Assistant head
-
 loadout-group-clown-mask = Clown mask
 
 # Logistics
-
 loadout-group-cargo-technician-neck = Cargo Technician neck
-
 loadout-group-cargo-id-delta = Cargo Technician PDA
-
 loadout-group-courier-head = Courier head
 loadout-group-courier-neck = Courier neck
 loadout-group-courier-jumpsuit = Courier jumpsuit
@@ -63,7 +51,6 @@ loadout-group-cargo-assistant-shoes = Cargo Assistant shoes
 
 loadout-group-salvage-specialist-neck = Salvage Specialist neck
 loadout-group-salvage-specialist-jumpsuit = Salvage Specialist jumpsuit
-
 loadout-group-salvage-id-delta = Salvage Specialist PDA
 
 # Medical
@@ -109,12 +96,11 @@ loadout-group-roboticist-id = Roboticist PDA
 
 # Engineering
 loadout-group-station-engineer-neck = Station Engineer neck
-
 loadout-group-atmospheric-technician-neck = Atmospheric Technician neck
-
 loadout-group-atmos-id-delta = Atmospheric Technician PDA
-
 loadout-group-atmospheric-technician-head = Atmospheric Technician head
+loadout-group-foreman-jumpsuit = Foreman Jumpsuit
+loadout-group-foreman-id = Foreman PDA
 
 # Security
 loadout-group-head-of-security-shoes = Head of Security shoes

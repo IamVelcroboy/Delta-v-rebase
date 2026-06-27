@@ -647,3 +647,23 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.85
+
+# Foreman Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitAtmos
+  id: ClothingOuterHardsuitForeman
+  name: foreman hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has thermal shielding. # here
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/OuterClothing/Hardsuits/foreman.rsi
+  - type: Clothing # Delta V - Need this for species, what do?
+    sprite: _DV/Clothing/OuterClothing/Hardsuits/foreman.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+  - type: ClothingSpeedModifier
+    walkModifier: 0.75
+    sprintModifier: 0.75
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitEngineeringWhite #here

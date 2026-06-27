@@ -3,3 +3,7 @@
   tags:
     - Engineering
     - Atmospherics
+
+- type: accessLevel
+  id: Foreman
+  name: id-card-access-level-foreman

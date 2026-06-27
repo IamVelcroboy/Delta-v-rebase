@@ -73,3 +73,37 @@
     - id: NitrogenTankFilled
       amount: 2
     - id: WaterVaporTankFilled
+
+#Foreman
+- type: entity
+  parent: LockerForeman
+  id: LockerForemanFilledHardsuit
+  suffix: Filled, Hardsuit, Foreman
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:AllSelector
+        children:
+        - !type:NestedSelector
+          tableId: FillLockerEngineer
+        - !type:NestedSelector
+          tableId: FillForemanHardsuit
+
+- type: entity
+  parent: LockerForeman
+  id: LockerForemanFilled
+  suffix: Filled, Foreman
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FillLockerEngineer
+
+- type: entityTable
+  id: FillForemanHardsuit
+  table: !type:AllSelector
+    children:
+    - id: ClothingOuterHardsuitForeman
+    - id: OxygenTankFilled
+    - id: ClothingMaskBreath
+    - id: ClothingShoesBootsMag

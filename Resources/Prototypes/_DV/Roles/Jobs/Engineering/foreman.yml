@@ -1,0 +1,69 @@
+- type: job
+  id: Foreman
+  name: job-name-foreman
+  description: job-description-foreman
+  playTimeTracker: JobForeman
+  antagAdvantage: 4 # MAybe remove, come back
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobAtmosphericTechnician
+      time: 2.5h
+    - !type:RoleTimeRequirement
+      role: JobStationEngineer
+      time: 5h
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 10h
+  weight: 5
+  startingGear: ForemanGear
+  icon: "JobIconForeman"
+  supervisors: job-supervisors-ce
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  - Atmospherics
+  - Foreman
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: ForemanGear
+  equipment:
+    eyes: ClothingEyesGlassesMeson
+    belt: ClothingBeltUtilityEngineering
+    ears: ClothingHeadsetEngineering
+    pocket1: AccessConfigurator
+    pocket2: HandheldStationMap
+
+- type: chameleonOutfit
+  id: FormanChameleonOutfit
+  job: Foreman
+  equipment:
+    head: ClothingHeadHatHardhatYellow
+    mask: ClothingMaskBreath
+    neck: ClothingNeckScarfStripedOrange
+    outerClothing: ClothingOuterWinterEngi
+    gloves: ClothingHandsGlovesColorYellow
+    shoes: ClothingShoesBootsMag
+
+# ID
+- type: loadout
+  id: ForemanPDA
+  equipment:
+    id: ForemanPDA
+
+# Jumpsuit
+- type: loadout
+  id: ForemanJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitForeman
+
+# Head # Add speical foreman hardhat?
+- type: loadout
+  id: ForemanHardhat
+  equipment:
+    head: ClothingHeadHatHardhatYellow
+
+#todo Hat?, skirt?

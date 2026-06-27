@@ -21,6 +21,7 @@ station-beacon-mailroom = Mail
 
 station-beacon-engi-outpost = Engi Outpost
 station-beacon-atmos-outpost = Atmos Outpost
+station-beacon-foreman = Foreman
 
 station-beacon-janitor-office = Jani Office
 station-beacon-janitor-closet = Jani Closet

@@ -717,6 +717,19 @@
   - ScarfOrange
   - ScarfRed
 
+## Foreman
+- type: loadoutGroup
+  id: ForemanJumpsuit
+  name: loadout-group-foreman-jumpsuit
+  loadouts:
+  - ForemanJumpsuit
+
+- type: loadoutGroup
+  id: ForemanPDA
+  name: loadout-group-foreman-id
+  loadouts:
+  - ForemanPDA
+
 ## Atmospheric Technician
 - type: loadoutGroup
   id: AtmosphericTechnicianNeck

@@ -144,6 +144,24 @@
     containers:
       board: [ DoorElectronicsChiefMedicalOfficer ]
 
+- type: entity
+  parent: WindoorSecureEngineeringLocked
+  id: WindoorSecureForemanLocked
+  suffix: Foreman, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsForeman ]
+
+- type: entity
+  parent: WindoorSecurePlasma
+  id: WindoorSecurePlasmaForemanLocked
+  suffix: Foreman, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsForeman ]
+
 #Add windoors from upstream roles
 - type: entity
   parent: WindoorSecureServiceLocked

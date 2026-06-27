@@ -275,3 +275,27 @@
         tableId: FillSuitStorageScienceEVA
   - type: AccessReader
     access: [["Research"]]
+
+# Foreman
+- type: entity
+  parent: SuitStorageBase
+  id: SuitStorageForeman
+  suffix: Foreman
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: ForemanSuitStorageFill
+  - type: AccessReader
+    access: [["Foreman"]]
+
+- type: entityTable
+  id: ForemanSuitStorageFill
+  table: !type:AllSelector
+    children:
+    - id: NitrogenTankFilled
+    - id: OxygenTankFilled
+    - id: ClothingOuterHardsuitForeman
+    - id: ClothingMaskBreathMedical
+    - id: ClothingShoesBootsMag
+    - id: JetpackBlueFilled

@@ -499,6 +499,16 @@
   - type: FaxMachine
     name: "Permanent Brig"
 
+- type: entity
+  parent: FaxMachineBase
+  id: FaxMachineStationForeman
+  suffix: Foreman
+  components:
+  - type: PageSender
+    autoLinkJobs: [Foreman]
+  - type: FaxMachine
+    name: "Foreman"
+
 #hitman
 - type: entity
   parent: FaxMachineBase

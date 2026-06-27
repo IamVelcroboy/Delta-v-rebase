@@ -123,6 +123,51 @@
     containers:
       board: [ DoorElectronicsClerk ]
 
+- type: entity
+  parent: AirlockSecurity
+  id: AirlockCorpsmanLocked
+  suffix: Corpsman, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCorpsman ]
+
+- type: entity
+  parent: AirlockMedical
+  id: AirlockParamedicLocked
+  suffix: Paramedic, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsParamedic ]
+
+- type: entity
+  parent: AirlockRobotics
+  id: AirlockRoboticsLocked
+  suffix: Robotics, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsRobotics ]
+
+- type: entity
+  parent: AirlockEngineeringGlass
+  id: AirlockForemanGlassLocked
+  suffix: Foreman, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsForeman ]
+
+- type: entity
+  parent: AirlockEngineering
+  id: AirlockForemanLocked
+  suffix: Foreman, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsForeman ]
+
 # Maintenance
 - type: entity
   parent: AirlockMaintCommandLocked
@@ -163,23 +208,13 @@
       board: [ DoorElectronicsClerk ]
 
 - type: entity
-  parent: AirlockSecurity
-  id: AirlockCorpsmanLocked
-  suffix: Corpsman, Locked
+  parent: AirlockForemanLocked
+  id: AirlockMaintForemanLocked
   components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsCorpsman ]
+  - type: Sprite
+    sprite: _DV/Structures/Doors/Airlocks/Standard/maint.rsi
 
-- type: entity
-  parent: AirlockMedical
-  id: AirlockParamedicLocked
-  suffix: Paramedic, Locked
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsParamedic ]
-
+# Shuttles
 - type: entity
   parent: AirlockGlassShuttle
   id: AirlockExternalGlassShuttleEscapeSub
@@ -187,15 +222,6 @@
   components:
     - type: GridFill
       path: /Maps/_DV/Shuttles/Misc/sub_escape_pod.yml
-
-- type: entity
-  parent: AirlockRobotics
-  id: AirlockRoboticsLocked
-  suffix: Robotics, Locked
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsRobotics ]
 
 - type: entity
   parent: AirlockGlassShuttle

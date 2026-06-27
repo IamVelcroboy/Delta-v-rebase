@@ -612,6 +612,21 @@
       enum.PdaVisuals.PdaType: !type:String
         pda-mechanic
 
+# Foreman
+
+- type: entity
+  parent: EngineerPDA
+  id: ForemanPDA
+  name: foreman PDA
+  description: Remember, staring at your clipboard makes you look both important and busy.
+  components:
+  - type: Pda
+    id: ForemanIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType: !type:String
+        pda-foreman
+
 # Cargo Technician
 
 - type: entity

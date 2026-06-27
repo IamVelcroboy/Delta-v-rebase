@@ -152,3 +152,19 @@
   - Trinkets
   - BoxerJobTrinkets
   - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobForeman
+  groups:
+  - GroupTankHarness
+  - StationEngineerHead # here
+  - StationEngineerNeck # here???
+  - ForemanJumpsuit
+  - StationEngineerBackpack
+  - StationEngineerOuterClothing # here
+  - StationEngineerShoes
+  - ForemanPDA
+  - SurvivalExtended
+  - Trinkets
+  - StationEngineerJobTrinkets # here???
+  - GroupSpeciesBreathTool

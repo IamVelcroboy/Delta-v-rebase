@@ -46,11 +46,11 @@ public sealed partial class IdCardConsoleComponent : Component
         // DeltaV note: make sure any additions to this list are also added to both:
         //  1. AllAccess in  Resources\Prototypes\Access\misc.yml
         //  2. ComputerIdAdmeme in  Resources\Prototypes\_DV\Entities\Structures\Machines\computers.yml
+        //  3. Access Configurator in Resources\Prototypes\Entities\Objects\Tools\access_configurator.yml
         "Armory",
         "Atmospherics",
         "Bar",
         //"Brig", Delta V: Removed Brig Access
-        "Boxer",  // DeltaV - Add Boxer access
         "Detective",
         "Captain",
         "Cargo",
@@ -58,8 +58,6 @@ public sealed partial class IdCardConsoleComponent : Component
         "Chemistry",
         "ChiefEngineer",
         "ChiefMedicalOfficer",
-        "Clown", // DeltaV - Add Clown access
-        "Corpsman", // DeltaV - Add Corpsman access
         "Command",
         "Cryogenics",
         "EmergencyShuttleRepealAll", // DeltaV - fix mismatch with Access/misc.yml
@@ -73,32 +71,38 @@ public sealed partial class IdCardConsoleComponent : Component
         "Janitor",
         "Kitchen",
         "Lawyer",
-        "Library",  // DeltaV - Add Library access
         "Maintenance",
         "Medical",
-        "Mime", // DeltaV - Add Mime access
-        "Musician", // DeltaV - Add Musician access
-        "Paramedic", // DeltaV - Add Paramedic access
-        "Psychologist", // DeltaV - Add Psychologist access
         "Quartermaster",
-        "Reporter", // DeltaV - Add Reporter access
         "Research",
         "ResearchDirector",
         "Salvage",
         "Security",
         "Service",
         "Theatre",
-        "Orders", // DeltaV - Orders, see Resources/Prototypes/_DV/Access/cargo.yml
+        // DeltaV - Begin Additions
+        "Boxer",  // DeltaV - Add Boxer access
+        "ChiefJustice",  // DeltaV - Add Chief Justice access
+        "Clerk", // Delta V - Add Clerk access
+        "Clown", // DeltaV - Add Clown access
+        "Corpsman", // DeltaV - Add Corpsman access
+        "Foreman", // DeltaV - Add Foreman access
+        "Funding", // DeltaV - Add Funding access
+        "Justice",  // DeltaV - Add Justice access
+        "Library",  // DeltaV - Add Library access
         "Mail", // Nyanotrasen - Mail, see Resources/Prototypes/Nyanotrasen/Access/cargo.yml
         "Mantis", // DeltaV - Psionic Mantis, see Resources/Prototypes/_DV/Access/epistemics.yml
-        "Zookeeper",  // DeltaV - Add Zookeeper access
-        "ChiefJustice",  // DeltaV - Add Chief Justice access
-        "Justice",  // DeltaV - Add Justice access
+        "Mime", // DeltaV - Add Mime access
+        "Musician", // DeltaV - Add Musician access
+        "Orders", // DeltaV - Orders, see Resources/Prototypes/_DV/Access/cargo.yml
+        "Paramedic", // DeltaV - Add Paramedic access
         "Prosecutor", // Delta V - Add Prosecutor access
+        "Psychologist", // DeltaV - Add Psychologist access
+        "Reporter", // DeltaV - Add Reporter access
         "Robotics", // DeltaV
-        "Clerk", // Delta V - Add Clerk access
         "Surgery", // Delta V - Add Surgery access
-        "Funding", // DeltaV - Add Funding access
+        "Zookeeper",  // DeltaV - Add Zookeeper access
+        // DeltaV - End Additions
     };
 
     [Serializable, NetSerializable]

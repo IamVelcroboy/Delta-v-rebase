@@ -165,3 +165,11 @@
   components:
   - type: AccessReader
     access: [["ERT"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsForeman
+  suffix: Foreman, Locked
+  components:
+  - type: AccessReader
+    access: [["Foreman"]]

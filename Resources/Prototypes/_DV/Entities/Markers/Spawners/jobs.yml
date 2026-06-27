@@ -142,3 +142,16 @@
     layers:
       - state: green
       - state: zookeeper
+
+- type: entity
+  id: SpawnPointForeman
+  parent: SpawnPointJobBase
+  name: foreman
+  components:
+  - type: SpawnPoint
+    job_id: Foreman
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: _DV/Markers/jobs.rsi
+    state: foreman

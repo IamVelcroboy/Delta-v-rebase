@@ -11,6 +11,7 @@ job-description-admin-assistant = Assist command in their day-to-day activities,
 job-description-mime-delta = Entertain the crew while remaining silent, and engage with light rivalry with the clown.
 job-description-assistant = Get your space legs, assist people, ask a Command member to give you a job.
 job-description-centcomintern = The ground workers at Central Command, serving coffee, sorting faxes, and running errands.
+job-description-foreman = Organize teams of engineers to coordinate repairs, remodeling, and retrofitting the station.
 
 # I dont know if these will ever be visible but I'll include them anyways.
 role-description-laika = "Bark! Bark! Grrr!"
